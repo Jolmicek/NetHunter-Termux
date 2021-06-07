@@ -1,0 +1,13 @@
+when installing Termux, it will open the application and type these commands:
+termux-setup-storage
+pkg install wget
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+chmod +x install-nethunter-termux
+./install-nethunter-termux
+
+when you're done just type nethunter to start Kali Linux.
+
+If you get an error try writing:
+pkg install root-repo
+
+I hope it works and have fun 😎😁😂
